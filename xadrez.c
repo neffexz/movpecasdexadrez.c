@@ -2,7 +2,7 @@
 
     int main(){
         //Declaração de variáveis
-        int bispo, rainha, torre, opcao;
+        int opcao;
         int movimentoRainha = 1;
         int movimentoBispo = 1;
 
@@ -52,4 +52,5 @@
                 default:
                 printf("Opção inválida.\n");
             }
+        return 0;
         }
